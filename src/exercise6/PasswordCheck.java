@@ -23,6 +23,6 @@ public class PasswordCheck {
 
         } while ((!is_valid) || digit_counter < 2 || len < 8 );
 
-        System.out.println("Password valid!");
+        System.out.print("Password valid!");
     }
 }
